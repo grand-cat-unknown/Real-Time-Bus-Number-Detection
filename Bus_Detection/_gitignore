@@ -1,0 +1,19 @@
+*.pyc
+*.pyo
+*~
+
+venv/
+.venv/
+
+.vscode/
+
+.DS_Store
+._.DS_Store
+
+
+# model
+*.pb
+*.pbtxt
+*.tar.gz
+*.h5
+*.tflite
