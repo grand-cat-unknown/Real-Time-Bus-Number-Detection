@@ -1,0 +1,17 @@
+opencv-contrib-python==4.1.2.30
+opencv-python==4.1.2.30
+matplotlib==3.1.2
+pycocotools==2.0.0
+Cython==0.29.14
+contextlib2==0.5.5
+jupyter==1.0.0
+matplotlib==3.1.2
+tensorflow==1.15.0
+tensorboard==1.15.0
+pandas==0.25.3
+numpy==1.17.4
+Pillow==4.3.0
+protobuf==3.10.0
+scikit-image==0.15.0
+scikit-learn==0.21.3
+wget==3.2.0
