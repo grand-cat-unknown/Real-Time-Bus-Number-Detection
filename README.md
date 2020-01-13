@@ -1,16 +1,8 @@
- /$$$$$$$ /$$$$$$$$ /$$$$$$ /$$$$$$$ /$$      /$$/$$$$$$$$
-| $$__  $| $$_____//$$__  $| $$__  $| $$$    /$$| $$_____/
-| $$  \ $| $$     | $$  \ $| $$  \ $| $$$$  /$$$| $$      
-| $$$$$$$| $$$$$  | $$$$$$$| $$  | $| $$ $$/$$ $| $$$$$   
-| $$__  $| $$__/  | $$__  $| $$  | $| $$  $$$| $| $$__/   
-| $$  \ $| $$     | $$  | $| $$  | $| $$\  $ | $| $$      
-| $$  | $| $$$$$$$| $$  | $| $$$$$$$| $$ \/  | $| $$$$$$$$
-|__/  |__|________|__/  |__|_______/|__/     |__|________/
-                                                          
+                                     
                                                           
 
 
-#Real-time Bus Number Detection
+# Real-time Bus Number Detection
 
 Implemented a bus number detection in Tensorflow and Keras. Used Tiny-YOLOv2 and Tensorflow's Object Detection API model for the detection pipeline. Please read Report.pdf for understanding the design and package choices.
 
