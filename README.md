@@ -110,32 +110,7 @@ The notebook ' Multi_Digit_classifier.ipynb ' contains a TensorFlow implementati
 PLEASE READ REPORT.PDF for Design details
 
 ----------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------
 
+![Example](https://github.com/grand-cat-unknown/Real-Time-Bus-Number-Detection/blob/master/Example1.jpeg)
 
-# FOLDERS DESCRIPTION
-
-Bus_Detection: Contains model and data required to detect buses in video
-|	
-|->	model_data --> Used for loading the bus detection model. Used in 'Bus_Number_Detector.ipynb'
-|->	yad2k 	   --> Used to convert Darknet model to Keras. 
-|->	utils      --> Helper files for loading and processing the output of the bus detection model. Used in 'Bus_Number_Detector.ipynb'
-
-
-
-Digit_Detection: Contains model and data required to detect digits in video
- |
- |-> Training MobileNet:  Contains a MobileNet model trained to DETECT AND CLASSIFY digits, trained on SVHN dataset
- |		|
- |		|->	Pre-process.ipynb 		--> Converts SVHN dataset to usable CSV format
- |		|->	Csv_to_Inference.ipynb  --> Uses CSV to train the Digit Detection model and creates an Inference graph
- |
- |-> TF_Implementation:	Contains a Tensorflow CNN trained to CLASSIFY digits, trained on SVHN dataset.
- |		|	
- |		|->	SVHN-preprocess.ipynb	--> Converts the SVNH dataset into h5 format for the classifier
- |		
- |-> Output_Graph2: 
-			Contains the trained MobileNet on SVHN, being used in  ' Bus_Number_Detector.ipynb '
-
-output_examples: Contains a few results of the Detection model on Training video samples.
 
