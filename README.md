@@ -2,9 +2,12 @@
                                                           
 
 
-# Real-time Bus Number Detection
+# Real-time Bus Number Detection in HD videos
 
-Implemented a bus number detection in Tensorflow and Keras. Used Tiny-YOLOv2 and Tensorflow's Object Detection API model for the detection pipeline. Please read Report.pdf for understanding the design and package choices.
+Implemented a bus number detection in Tensorflow and Keras. Used Tiny-YOLOv2 and Tensorflow's Object Detection API model for the detection pipeline. The output is around 18 FPS on mid-ranged GPUs. Please read Report.pdf for understanding the design and package choices.
+
+Some examples of the processed ouput videos can be found here: 
+https://drive.google.com/open?id=1X76MivFsj-r1T7em1WqMOr2L96cvhHf0
 
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
