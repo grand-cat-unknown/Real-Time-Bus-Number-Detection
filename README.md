@@ -9,7 +9,12 @@ Implemented a bus number detection in Tensorflow and Keras. Used Tiny-YOLOv2 and
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
 
-#Prerequistes:
+# Prerequistes:
+
+Download YOLO weights in the folder 'model_data' for Bus Detection from here:
+https://drive.google.com/open?id=1B-4UzdYtQKMFpjosACePJY5H0feZsZDF
+
+Place this folder in 'Bus Detection' The location is very important
 
 It is highly suggested to use a virtual environment for this project.
 
@@ -58,7 +63,7 @@ RECHECK IF THIS IS WORKING:
 	protoc object_detection/protos/*.proto --python_out=.
 
 IF YES:
-	# From tensorflow/models/research/
+	#From tensorflow/models/research/
 
 	export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 
@@ -67,7 +72,7 @@ IF YES:
 
 If everything is set correctly. This line shouldn't throw any errors:
 
-# From tensorflow/models/research/
+#From tensorflow/models/research/
 
 python object_detection/builders/model_builder_test.py
 
@@ -75,7 +80,7 @@ python object_detection/builders/model_builder_test.py
 ----------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------
 
-#Dependencies:
+# Dependencies:
 
 I have implemented all of this code in Google Colab platform, which already has a lot of packages installed. So it has hard to extract the exact dependencies.
 To the best of my knowledge requirements.txt contains all the required dependencies. 
@@ -108,7 +113,7 @@ PLEASE READ REPORT.PDF for Design details
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
-##FOLDERS DESCRIPTION
+# FOLDERS DESCRIPTION
 
 Bus_Detection: Contains model and data required to detect buses in video
 |	
