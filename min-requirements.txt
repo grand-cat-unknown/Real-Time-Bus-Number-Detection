@@ -6,7 +6,7 @@ Cython==0.29.14
 contextlib2==0.5.5
 jupyter==1.0.0
 matplotlib==3.1.2
-tensorflow==1.15.0
+tensorflow==2.5.0
 tensorboard==1.15.0
 pandas==0.25.3
 numpy==1.17.4
