@@ -363,7 +363,7 @@ typing-extensions==3.6.6
 tzlocal==1.5.1
 umap-learn==0.3.10
 uritemplate==3.0.0
-urllib3==1.24.3
+urllib3==1.26.5
 vega-datasets==0.7.0
 wasabi==0.4.2
 wcwidth==0.1.7
