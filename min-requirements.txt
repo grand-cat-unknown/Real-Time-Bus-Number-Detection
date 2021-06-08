@@ -10,7 +10,7 @@ tensorflow==1.15.0
 tensorboard==1.15.0
 pandas==0.25.3
 numpy==1.17.4
-Pillow==4.3.0
+Pillow==8.2.0
 protobuf==3.10.0
 scikit-image==0.15.0
 scikit-learn==0.21.3
