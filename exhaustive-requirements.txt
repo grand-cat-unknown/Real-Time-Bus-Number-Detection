@@ -216,7 +216,7 @@ oauthlib==3.1.0
 object-detection==0.1
 okgrade==0.4.3
 olefile==0.46
-opencv-contrib-python==4.1.2.30
+opencv-contrib-python==4.2.0.32
 opencv-python==4.1.2.30
 openpyxl==2.5.9
 opt-einsum==3.1.0
