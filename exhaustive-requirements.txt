@@ -43,7 +43,7 @@ coveralls==0.5
 crcmod==1.7
 cufflinks==0.17.0
 cupy-cuda101==6.5.0
-cvxopt==1.2.3
+cvxopt==1.2.7
 cvxpy==1.0.25
 cycler==0.10.0
 cymem==2.0.3
